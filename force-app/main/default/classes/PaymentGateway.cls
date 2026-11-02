@@ -1,4 +1,4 @@
-global inherited sharing class PaymentGateway {
+public inherited sharing class PaymentGateway {
 
     private CustomObject__c obj;
 
@@ -10,7 +10,7 @@ global inherited sharing class PaymentGateway {
         return 'Example';
     }
 
-    global CustomObject__c getObject() {
+    public CustomObject__c getObject() {
         return obj;
     }
 }

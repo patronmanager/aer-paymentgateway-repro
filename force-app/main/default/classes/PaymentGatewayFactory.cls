@@ -1,6 +1,6 @@
-global inherited sharing class PaymentGatewayFactory {
+public inherited sharing class PaymentGatewayFactory {
 
-    global static PaymentGateway createGatewayFromObject(CustomObject__c customObject) {
+    public static PaymentGateway createGatewayFromObject(CustomObject__c customObject) {
        return new PaymentGateway(customObject);
     }
 }
